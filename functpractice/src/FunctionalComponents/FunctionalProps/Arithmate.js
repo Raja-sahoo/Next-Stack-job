@@ -10,9 +10,6 @@ function Arithmate (){
         num1:event.target.value,
        })
     }
-
-
-
     return(
         <>
         <h1>new arithmate solution</h1>
