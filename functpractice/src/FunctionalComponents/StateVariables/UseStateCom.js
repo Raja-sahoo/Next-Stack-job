@@ -10,7 +10,7 @@ function UseStateCom(){
   }
   return(
     <div>
-      <h1>name={name}</h1> 
+      <h1>name={name}</h1>
       <h1>email={email}</h1>
       <button onClick={handleClick}>click me</button>
     </div>

@@ -13,7 +13,7 @@ function Armatearry (){
 
 const handleSum=()=>{
 setCalc({
-    ...calc,
+    ...calc, 
     result: parseInt(calc.num1) + parseInt(calc.num2),
 })
 }

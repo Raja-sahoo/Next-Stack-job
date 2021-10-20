@@ -11,7 +11,7 @@ function ChangeFunction(){
   }
   const handleEmail=(event)=>{
     setUser({
-      ...user,
+      ...user, 
       email:event.target.value
     }) 
   }

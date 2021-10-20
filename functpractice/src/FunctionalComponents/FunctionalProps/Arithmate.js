@@ -1,7 +1,7 @@
 import react, {useState} from 'react';
 
 function Arithmate (){
-    const [num1, setNum1] = useState(0);
+    const [num1, setNum1] = useState();
     const [num2, setNum2] = useState(0);
     const [result, setResult] = useState(0);
 
@@ -16,7 +16,7 @@ function Arithmate (){
     return(
         <>
         <h1>new arithmate solution</h1>
-        <input type="number" value={num1} onChange={handleNum}/>
+        <input type="text" placeholder="enter number 1" value={num1} onChange={handleNum}/><br/>
 
         <h1>name: {num1}</h1>
         </>
