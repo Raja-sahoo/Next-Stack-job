@@ -12,7 +12,7 @@ function Arithmate (){
     }
     return(
         <>
-        <h1>new arithmate solution</h1>
+        <h1>Arithmate Calulater</h1>
         <input type="text" placeholder="enter number 1" value={num1} onChange={handleNum}/><br/>
 
         <h1>name: {num1}</h1>
