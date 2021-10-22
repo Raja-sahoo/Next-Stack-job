@@ -28,8 +28,8 @@ class App extends React.Component {
         {/* <UseStateCom/> */}
         {/* <ChangeFunction/> */}
         {/* <ArrayCom/> */}
-        <Arithmate/>
-        {/* <Armatearry/> */}
+        {/* <Arithmate/> */}
+        <Armatearry/>
       </div>
     )
   }
