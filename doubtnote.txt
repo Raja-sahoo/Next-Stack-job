@@ -1,2 +1,37 @@
 suppose something wrng occour then the dependecies would have downloaded or no ?
 if yes then how to remove cache data's
+
+git remote add origin https://github.com/Raja-sahoo/todolist.git
+git push -u origin main
+
+
+
+import React from "react";
+
+
+export default class Todo extends React.Component{
+
+    constructor(props){
+        super(props);
+        this.state ={
+            initData: "",
+        }
+    }
+
+    handleInit= (event) =>{
+        this.setState({
+            initData: event.target.vlaue,
+        });
+    }
+
+    render(){
+        return(
+            <div className="App">
+            <h1><u>To Do List Project</u></h1>
+            <input type="text" vlaue={this.state.initData} onChange={this.handleInit} /><br/>
+            {this.state.initData}
+
+            </div>
+        )
+    }
+}
